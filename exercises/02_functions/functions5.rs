@@ -3,7 +3,6 @@
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
     let answer:i32 = square(3);
@@ -11,6 +10,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    let num = num * num;
-    return num;
+     num * num
 }
